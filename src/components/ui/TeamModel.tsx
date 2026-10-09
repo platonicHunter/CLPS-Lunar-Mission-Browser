@@ -13,7 +13,6 @@ interface TeamModalProps {
 }
 
 export const TeamModal: React.FC<TeamModalProps> = ({ isOpen, onClose }) => {
-  // Track image load errors for each member
   const [imageErrors, setImageErrors] = useState<Record<string, boolean>>({});
 
   if (!isOpen) return null;
