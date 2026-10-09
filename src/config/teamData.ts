@@ -1,7 +1,7 @@
 import { TeamInfo } from "@/types/team";
 
 export const TEAM_DATA: TeamInfo = {
-  teamName: "AstroDevs Team",
+  teamName: "APOLLO 3 Team",
   projectName: "CLPS LUNAR MISSION BROWSER",
   members: [
     {
